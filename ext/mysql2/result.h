@@ -1,6 +1,6 @@
 #ifndef MYSQL2_RESULT_H
 #define MYSQL2_RESULT_H
-
+#include <stdbool.h>
 void init_mysql2_result();
 VALUE rb_mysql_result_to_obj(VALUE client, VALUE encoding, VALUE options, MYSQL_RES *r);
 
